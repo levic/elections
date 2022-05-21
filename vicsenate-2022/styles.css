@@ -32,6 +32,7 @@ a {
 	text-decoration: none;
 	border-bottom: 1px dashed;
 	color: #303680;
+	overflow-wrap: break-word;
 }
 
 a:hover {
@@ -67,13 +68,17 @@ body {
 	}
 }
 
-
-
 .content {
 	padding: 0 2em;
 	max-width: 80rem;
 	background-color: #fff8f8;
 	margin: auto;
+}
+
+@media (max-width: 800px) {
+	.content {
+		padding: 0 1em;
+	}
 }
 
 
