@@ -1,0 +1,125 @@
+/* ========================================================================== */
+h1, h2 {
+	font-family: "Cormorant Garamond"
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.75rem;
+	font-weight: 400;
+}
+
+label {
+	font-weight: bold;
+}
+
+p,
+ul {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+	color: #303680;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+	background-color: #fcf0f0;
+}
+
+a:visited {
+	border-bottom: 1px solid;
+	color: #304980;
+}
+
+/* ========================================================================== */
+body {
+	padding: 1em 2em;
+	background:
+		repeating-linear-gradient(
+			45deg,
+			#171938 0px,
+			#171938 10px,
+			#10122a 10px,
+			#10122a 20px
+		);
+	font-family: "Gentium Basic";
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
+
+
+.content {
+	padding: 0 2em;
+	max-width: 80rem;
+	background-color: #fff8f8;
+	margin: auto;
+}
+
+
+/* ========================================================================== */
+
+.header {
+	padding-top: 1em;
+}
+.header h1,
+.header h2 {
+	text-align: center;
+}
+
+#toc ul {
+	margin-top: 0;
+}
+
+#toc li {
+	margin-bottom: 0.1em;
+}
+
+#preferences img {
+	display: block;
+}
+
+.party {
+	border-top: 1px solid #abadc2;
+	padding-left: 1rem;
+}
+
+.party h3 {
+	text-indent: -1rem;
+	margin-bottom: 0.25rem;
+}
+
+.party .nav,
+.party .position,
+.party .policies,
+.party .comprehensive,
+.party .summary,
+.party .highlights {
+	margin-top: 0.25em;
+}
+
+.party .nav {
+	font-size: 75%;
+	padding-bottom: 1em;
+}
+
+.party .comprehensive .high { color: #473; }
+.party .comprehensive .med  { color: #653; }
+.party .comprehensive .low  { color: #733; }
+
+.party .summary p {
+	padding-left: 1em;
+}
